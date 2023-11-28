@@ -6,7 +6,7 @@ This is an unofficial X3 pi deployment of SiamAPN++[1] based on Python, whose of
 ## Model Overview
 Tracker | MACs | Params | FPS | Avg Latency | DDR Latency | Subgraph | BPU Util1 | BPU Util2 | DTB70 Success
 --- | --- | --- | --- |--- |--- |--- |--- |--- |---
-SiamAPN++ | 10.25G | 15.15M | 5.811 | 682.66ms | 647.40ms | 11 | 19.29% | 19.94% | 0.594
+SiamAPN++ | 10.25G | 15.15M | 5.811 | 682.66ms | 647.40ms | 11 | 18.74% | 18.78% | 0.594
 
 We test BPU utilization rate by using hrut_somstatus while testing static performance with 4 threads:
 ```
@@ -119,6 +119,6 @@ hrt_model_exec perf --model_file SiamAPN++.bin --thread_num 4
     2. for demo on laptop: torch-1.9.0+cu111-cp37-cp37m-linux_x86_64.whl
 
 ## Reference
-[1] SiamAPN++: Siamese Attentional Aggregation Network for Real-Time UAV Tracking 
+[1] SiamAPN++: Siamese Attentional Aggregation Network for Real-Time UAV Tracking  
 [2] DTB70: https://github.com/flyers/drone-tracking  
 [3] PySOT: https://github.com/STVIR/pysot
