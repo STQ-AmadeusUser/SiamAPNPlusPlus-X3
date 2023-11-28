@@ -1,0 +1,105 @@
+{
+    "summary": {
+        "BPU OPs per frame (effective)": 520450560,
+        "BPU OPs per run (effective)": 520450560,
+        "BPU PE number": 1,
+        "BPU core number": 2,
+        "BPU march": "BERNOULLI2",
+        "DDR bytes per frame": 2155520,
+        "DDR bytes per run": 2155520,
+        "DDR bytes per second": 1943722299,
+        "DDR megabytes per frame": 2.056,
+        "DDR megabytes per run": 2.056,
+        "DDR megabytes per second": 1853.7,
+        "FPS": 901.74,
+        "HBDK version": "3.48.6",
+        "compiling options": "-f hbir -m /tmp/tmpmw_vs5zr/torch-jit-export_subgraph_10.hbir -o /tmp/tmpmw_vs5zr/torch-jit-export_subgraph_10.hbm --march bernoulli2 --progressbar --O3 --core-num 2 --fast --input-layout NHWC --output-layout NCHW --input-source ddr",
+        "frame per run": 1,
+        "frame per second": 901.74,
+        "input features": [
+            [
+                "input name",
+                "input size"
+            ],
+            [
+                "451_calibrated_quantized",
+                "1x21x21x256"
+            ]
+        ],
+        "interval computing unit utilization": [
+            0.604,
+            1.673,
+            1.877,
+            1.848,
+            1.746,
+            1.587,
+            1.872,
+            1.849,
+            1.83,
+            1.819,
+            0.932,
+            0.062
+        ],
+        "interval computing units utilization": [
+            0.604,
+            1.673,
+            1.877,
+            1.848,
+            1.746,
+            1.587,
+            1.872,
+            1.849,
+            1.83,
+            1.819,
+            0.932,
+            0.062
+        ],
+        "interval loading bandwidth (megabytes/s)": [
+            7558,
+            4457,
+            678,
+            64,
+            468,
+            3216,
+            2812,
+            78,
+            78,
+            0,
+            0,
+            0
+        ],
+        "interval number": 12,
+        "interval storing bandwidth (megabytes/s)": [
+            0,
+            117,
+            351,
+            468,
+            468,
+            527,
+            508,
+            468,
+            545,
+            585,
+            527,
+            292
+        ],
+        "interval time (ms)": 0.1,
+        "latency (ms)": 1.11,
+        "latency (ms) by segments": [
+            1.109
+        ],
+        "latency (us)": 1109.0,
+        "loaded bytes per frame": 1639424,
+        "loaded bytes per run": 1639424,
+        "model json CRC": "9a6ae3b0",
+        "model json file": "/tmp/tmpmw_vs5zr/torch-jit-export_subgraph_10.hbir",
+        "model name": "torch-jit-export_subgraph_10",
+        "model param CRC": "00000000",
+        "multicore sync time (ms)": 0.0,
+        "run per second": 901.74,
+        "runtime version": "3.15.40.0",
+        "stored bytes per frame": 516096,
+        "stored bytes per run": 516096,
+        "worst FPS": 901.74
+    }
+}
